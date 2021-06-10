@@ -12,6 +12,15 @@ class Application < Sinatra::Base
 
       return data_hash["tarot_interpretations"]
     end
+
+    def halt_with_404_not_found
+      halt 404, json({ message: "Not found" })
+    end
+
+    def halt_with_403_forbidden_error(message = nil)
+      message ||= "Forbidden"
+      halt 403, json({ message: message })
+    end
   end
 
   # return all cards
@@ -24,24 +33,31 @@ class Application < Sinatra::Base
     json cards
   end
 
-  # return card by id
-  get '/cards/:id' do
-    id = params[:id].to_i
+  # return card by suit and rank
+  get '/cards/:suit/:rank' do
+    suit = params[:suit].downcase.gsub("pentacles", "coins")
+    rank = params[:rank].downcase
 
-    json cards.detect { |card| card["rank"] == id }
+    card = cards.detect { |card| card["rank"] == rank.to_s && card["suit"] == suit }
+    halt_with_404_not_found unless card
+    json card
   end
 
   # returns n cards
-  get '/cards/:n/draw' do
+  get '/draw/:n' do
     n = params[:n].to_i
 
+    halt_with_403_forbidden_error("must be 0 or greater") if n < 0
     json cards.sample(n)
   end
 
   # find by name
   get '/find/:name' do
-    name = params[:name]
+    # uses coins not pentacles
+    name = params[:name].downcase.gsub("pentacles", "coins")
 
-    json cards.detect { |card| card["name"] == name }
+    card = cards.detect { |card| card["name"].downcase == name }
+    halt_with_404_not_found unless card
+    json card
   end
 end
