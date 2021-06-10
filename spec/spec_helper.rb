@@ -1,14 +1,11 @@
-require 'rubygems'
-require 'bundler'
-Bundler.setup(:default, :test)
-require 'sinatra'
-require 'rspec'
-require 'rack/test'
+# spec/spec_helper.rb
+require "rack/test"
+require "rspec"
 
-# set test environment
-Sinatra::Base.set :environment, :test
-Sinatra::Base.set :run, false
-Sinatra::Base.set :raise_errors, true
-Sinatra::Base.set :logging, false
+ENV["RACK_ENV"] = "test"
 
-require File.join(File.dirname(__FILE__), '../application')
+require File.expand_path "../../application.rb", __FILE__
+
+RSpec.configure do |config|
+  config.include Rack::Test::Methods
+end

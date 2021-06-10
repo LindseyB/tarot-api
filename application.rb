@@ -36,9 +36,9 @@ class Application < Sinatra::Base
   # return card by suit and rank
   get '/cards/:suit/:rank' do
     suit = params[:suit].downcase.gsub("pentacles", "coins")
-    rank = params[:rank].downcase
+    rank = params[:rank].downcase # ranks can be strings or ints
 
-    card = cards.detect { |card| card["rank"] == rank.to_s && card["suit"] == suit }
+    card = cards.detect { |card| card["rank"].to_s == rank && card["suit"] == suit }
     halt_with_404_not_found unless card
     json card
   end
