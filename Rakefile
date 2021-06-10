@@ -14,7 +14,3 @@ else
     t.rspec_opts = ['-cfs']
   end
 end
-
-task :environment do
-  require File.join(File.dirname(__FILE__), 'environment')
-end

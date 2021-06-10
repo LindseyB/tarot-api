@@ -1,3 +1,0 @@
-Sinatra
-Rails
-Ruby
