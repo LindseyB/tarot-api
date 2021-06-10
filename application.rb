@@ -24,6 +24,8 @@ helpers do
   end
 
   def cards
+    # At first I was like meh put this into a db and then I was like you know what
+    # fuck it, file IO like this, fast enough
     file = File.read('./tarot_interpretations.json')
     data_hash = JSON.parse(file)
 
