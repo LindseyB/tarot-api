@@ -2,15 +2,15 @@
 
 ## Requests
 
-`GET /` [[run]](http://tarot-api.com)
+`GET /` [[run]](https://tarot-api.com)
 
 Returns an array of every card
 
-`GET /cards` [[run]](http://tarot-api.com/cards)
+`GET /cards` [[run]](https://tarot-api.com/cards)
 
 Returns an array of every card
 
-`GET /cards/[suit]/[rank]` [[run]](http://tarot-api.com/cards/swords/10)
+`GET /cards/[suit]/[rank]` [[run]](https://tarot-api.com/cards/swords/10)
 
 | argument | values                                                                  | required |
 |----------|-------------------------------------------------------------------------|----------|
@@ -78,7 +78,7 @@ Returns a single card in the form of
   ```
 </details>
 
-`GET /draw/[n]` [[run]](http://tarot-api.com/draw/3)
+`GET /draw/[n]` [[run]](https://tarot-api.com/draw/3)
 
 Returns n randomly selected cards
 
@@ -86,7 +86,7 @@ Returns n randomly selected cards
 |----------|--------------|----------|
 | n        | positive int | yes      |
 
-`GET /find/:name` [[run]](http://tarot-api.com/find/The%20Magician)
+`GET /find/:name` [[run]](https://tarot-api.com/find/The%20Magician)
 
 Returns the card by the specified name. Note that the numbers will be spelled out and pentacles will be replaced by coins.
 
