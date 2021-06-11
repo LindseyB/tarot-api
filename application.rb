@@ -6,23 +6,27 @@ require_relative "cards"
 class Application < Sinatra::Base
   helpers do
     def halt_with_404_not_found
-      halt 404, json({ message: "Not found" })
+      halt 404, { message: "Not found" }.to_json
     end
 
     def halt_with_403_forbidden_error(message = nil)
       message ||= "Forbidden"
-      halt 403, json({ message: message })
+      halt 403, { message: message }.to_json
     end
+  end
+
+  before do
+    content_type :json
   end
 
   # return all cards
   get '/' do
-    json CARDS
+    CARDS.to_json
   end
 
   # return all cards
   get '/cards' do
-    json CARDS
+    CARDS.to_json
   end
 
   # return card by suit and rank
@@ -31,16 +35,16 @@ class Application < Sinatra::Base
     rank = params[:rank].downcase # ranks can be strings or ints
 
     card = CARDS.detect { |card| card[:rank].to_s == rank && card[:suit] == suit }
-    halt_with_404_not_found unless card
-    json card
+    return halt_with_404_not_found unless card
+    card.to_json
   end
 
   # returns n cards
   get '/draw/:n' do
     n = params[:n].to_i
 
-    halt_with_403_forbidden_error("must be 0 or greater") if n < 0
-    json CARDS.sample(n)
+    return halt_with_403_forbidden_error("must be 0 or greater") if n < 0
+    CARDS.sample(n).to_json
   end
 
   # find by name
@@ -49,7 +53,7 @@ class Application < Sinatra::Base
     name = params[:name].downcase.gsub("pentacles", "coins")
 
     card = CARDS.detect { |card| card[:name].downcase == name }
-    halt_with_404_not_found unless card
-    json card
+    return halt_with_404_not_found unless card
+    card.to_json
   end
 end
