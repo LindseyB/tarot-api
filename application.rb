@@ -8,11 +8,6 @@ class Application < Sinatra::Base
     def halt_with_404_not_found
       halt 404, { message: "Not found" }.to_json
     end
-
-    def halt_with_403_forbidden_error(message = nil)
-      message ||= "Forbidden"
-      halt 403, { message: message }.to_json
-    end
   end
 
   before do
@@ -43,7 +38,7 @@ class Application < Sinatra::Base
   get '/draw/:n' do
     n = params[:n].to_i
 
-    return halt_with_403_forbidden_error("must be 0 or greater") if n < 0
+    halt 403, { message: "must be 0 or greater" }.to_json if n < 0
     CARDS.sample(n).to_json
   end
 
