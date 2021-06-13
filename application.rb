@@ -4,6 +4,10 @@ Bundler.require
 require_relative "cards"
 
 class Application < Sinatra::Base
+  configure do
+    disable :protection
+  end
+
   helpers do
     def halt_with_404_not_found
       halt 404, { message: "Not found" }.to_json
