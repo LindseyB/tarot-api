@@ -48,8 +48,22 @@ class Application < Sinatra::Base
 
   # find by name
   get '/find/:name' do
+    replacements = {
+      "2" => "two",
+      "3" => "three",
+      "4" => "four",
+      "5" => "five",
+      "6" => "six",
+      "7" => "seven",
+      "8" => "eight",
+      "9" => "nine",
+      "10" => "ten",
+      "1" => "ace"
+    }
+
     # uses coins not pentacles
     name = params[:name].downcase.gsub("pentacles", "coins")
+    name = name.gsub(/\d+/, replacements)
 
     card = CARDS.detect { |card| card[:name].downcase == name }
     return halt_with_404_not_found unless card
