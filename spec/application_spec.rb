@@ -107,6 +107,16 @@ describe 'Application' do
       expect(card["rank"]).to eq 10
     end
 
+    it "replaces numbers with words" do
+      get "/find/10%20of%20swords"
+      expect(last_response).to be_ok
+
+      card = JSON.parse(last_response.body)
+      expect(card["name"]).to eq "ten of swords"
+      expect(card["suit"]).to eq "swords"
+      expect(card["rank"]).to eq 10
+    end
+
     it "returns 404 if card not found" do
       get "/find/dash"
       expect(last_response).to be_not_found
