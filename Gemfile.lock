@@ -9,7 +9,7 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rack (2.2.3)
+    rack (2.2.4)
     rack-protection (2.1.0)
       rack
     rack-test (1.1.0)
@@ -38,6 +38,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   pry
