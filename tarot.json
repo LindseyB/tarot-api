@@ -1,0 +1,596 @@
+{
+    "description": "Tarot cards and their meanings.",
+    "cards": [
+        {
+            "name": "The Fool",
+            "rank": 0,
+            "suit": "major",
+            "planet": "uranus",
+            "element": "air",
+            "sign": "",
+            "meanings": {
+                "upright": [
+                    "new beginnings",
+                    "innocence",
+                    "beginner's luck",
+                    "improvisation",
+                    "inexperience"
+                ],
+                "reversed": [
+                    "recklessness",
+                    "taken advantage of",
+                    "inconsideration",
+                    "naivety",
+                    "lack of direction",
+                    "chaos"
+                ]
+            }
+        },
+        {
+            "name": "The Magician",
+            "rank": 1,
+            "suit": "major",
+            "planet": "mercury",
+            "element": "air",
+            "sign": "",
+            "meanings": {
+                "upright": [
+                    "determined",
+                    "skillfulness",
+                    "resourceful",
+                    "confidence",
+                    "potential",
+                    "transformation"
+                ],
+                "reversed": [
+                    "trickery",
+                    "deception",
+                    "illusions",
+                    "out of touch",
+                    "manipulative",
+                    "poor planning",
+                    "confusion"
+                ]
+            }
+        },
+        {
+            "name": "The High Priestess",
+            "rank": 2,
+            "suit": "major",
+            "planet": "moon",
+            "element": "water",
+            "sign": "",
+            "meanings": {
+                "upright": [
+                    "intuitive",
+                    "unconscious",
+                    "inner voice",
+                    "spirituality",
+                    "mystery",
+                    "divine feminine"
+                ],
+                "reversed": [
+                    "secrets",
+                    "mystery",
+                    "lack of understanding",
+                    "selfishness",
+                    "hidden agendas"
+                ]
+            }
+        },
+        {
+            "name": "The Empress",
+            "rank": 3,
+            "suit": "major",
+            "planet": "venus",
+            "element": "earth",
+            "sign": "",
+            "meanings": {
+                "upright": [
+                    "motherly",
+                    "fertility",
+                    "nature",
+                    "beauty",
+                    "abundance",
+                    "compassion"
+                ],
+                "reversed": [
+                    "dependence",
+                    "smothering",
+                    "neglectful",
+                    "unhealthy relationships",
+                    "creative block"
+                ]
+            }
+        },
+        {
+            "name": "The Emperor",
+            "rank": 4,
+            "suit": "major",
+            "planet": "mars",
+            "element": "fire",
+            "sign": "aries",
+            "meanings": {
+                "upright": [
+                    "leadership",
+                    "promotion",
+                    "structure",
+                    "law and order"
+                ],
+                "reversed": [
+                    "tyranny",
+                    "rigidity",
+                    "coldness",
+                    "abuse of power",
+                    "loss of control"
+                ]
+            }
+        },
+        {
+            "name": "The Hierophant",
+            "rank": 5,
+            "suit": "major",
+            "planet": "venus",
+            "element": "earth",
+            "sign": "taurus",
+            "meanings": {
+                "upright": [
+                    "tradition",
+                    "conformity",
+                    "morality",
+                    "ethics",
+                    "marriage"
+                ],
+                "reversed": [
+                    "rebellion",
+                    "subversiveness",
+                    "new approaches",
+                    "freethinking"
+                ]
+            }
+        },
+        {
+            "name": "The Lovers",
+            "rank": 6,
+            "suit": "major",
+            "planet": "mercury",
+            "element": "air",
+            "sign": "gemini",
+            "meanings": {
+                "upright": [
+                    "partnerships",
+                    "duality",
+                    "union",
+                    "choices",
+                    "romance",
+                    "sexuality"
+                ],
+                "reversed": [
+                    "infidelity",
+                    "separation",
+                    "loss of balance",
+                    "one-sidedness",
+                    "disharmony",
+                    "misalignment of values"
+                ]
+            }
+        },
+        {
+            "name": "The Charriot",
+            "rank": 7,
+            "suit": "major",
+            "planet": "moon",
+            "element": "water",
+            "sign": "cancer",
+            "meanings": {
+                "upright": [
+                    "control",
+                    "will power",
+                    "victory",
+                    "assertion",
+                    "determination",
+                    "journey",
+                    "drive"
+                ],
+                "reversed": [
+                    "travel issues",
+                    "lack of control and direction",
+                    "aggression",
+                    "lack of willpower",
+                    "distraction",
+                    "lack of direction",
+                    "failure"
+                ]
+            }
+        },
+        {
+            "name": "Strength",
+            "rank": 8,
+            "suit": "major",
+            "planet": "sun",
+            "element": "fire",
+            "sign": "leo",
+            "meanings": {
+                "upright": [
+                    "courage",
+                    "compassion",
+                    "self-control",
+                    "sacrifice",
+                    "patience"
+                ],
+                "reversed": [
+                    "selfishness",
+                    "weakness",
+                    "self-doubt",
+                    "lack of self-discipline",
+                    "dishonor"
+                ]
+            }
+        },
+        {
+            "name": "The Hermit",
+            "rank": 9,
+            "suit": "major",
+            "planet": "mercury",
+            "element": "earth",
+            "sign": "virgo",
+            "meanings": {
+                "upright": [
+                    "contemplation",
+                    "searching",
+                    "soul-searching",
+                    "introspection",
+                    "being alone",
+                    "inner guidance"
+                ],
+                "reversed": [
+                    "isolation",
+                    "loneliness",
+                    "withdrawal",
+                    "lost your way",
+                    "misguidance"
+                ]
+            }
+        },
+        {
+            "name": "Wheel of Fortune",
+            "rank": 10,
+            "suit": "major",
+            "planet": "jupiter",
+            "element": "fire",
+            "sign": "",
+            "meanings": {
+                "upright": [
+                    "change",
+                    "cycles",
+                    "inevitable fate",
+                    "turning point",
+                    "luck",
+                    "destiny",
+                    "chance"
+                ],
+                "reversed": [
+                    "no control",
+                    "clinging to control",
+                    "bad luck",
+                    "interruption",
+                    "unexpected events",
+                    "disappointment"
+                ]
+            }
+        },
+        {
+            "name": "Justice",
+            "rank": 11,
+            "suit": "major",
+            "planet": "venus",
+            "element": "earth",
+            "sign": "libra",
+            "meanings": {
+                "upright": [
+                    "justice",
+                    "responsibility",
+                    "decisions",
+                    "cause and effect",
+                    "equity",
+                    "truth"
+                ],
+                "reversed": [
+                    "unfairness",
+                    "lack of accountability",
+                    "dishonesty",
+                    "unaccountability",
+                    "unintentional error",
+                    "bias"
+                ]
+            }
+        },
+        {
+            "name": "The Hanged Man",
+            "rank": 12,
+            "suit": "major",
+            "planet": "neptune",
+            "element": "water",
+            "sign": "pisces",
+            "meanings": {
+                "upright": [
+                    "sacrifice",
+                    "release",
+                    "martyrdom",
+                    "surrendering",
+                    "letting go",
+                    "metamorphosis"
+                ],
+                "reversed": [
+                    "stalling",
+                    "needless sacrifice",
+                    "fear of sacrifice",
+                    "fear of change",
+                    "immobilization",
+                    "blockage",
+                    "hesitation in decision making",
+                    "egotism"
+                ]
+            }
+        },
+        {
+            "name": "Death",
+            "rank": 13,
+            "suit": "major",
+            "planet": "pluto",
+            "element": "water",
+            "sign": "scorpio",
+            "meanings": {
+                "upright": [
+                    "rebirth",
+                    "endings",
+                    "change",
+                    "transformation",
+                    "transition",
+                    "letting go",
+                    "walking away from something",
+                    "cyclicality",
+                    "new beginnings"
+                ],
+                "reversed": [
+                    "resistance to change",
+                    "personal transformation",
+                    "inner purging",
+                    "fear of change",
+                    "stagnation",
+                    "decay",
+                    "depression"
+                ]
+            }
+        },
+        {
+            "name": "Temperance",
+            "rank": 14,
+            "suit": "major",
+            "planet": "jupiter",
+            "element": "fire",
+            "sign": "sagittarius",
+            "meanings": {
+                "upright": [
+                    "balance",
+                    "moderation",
+                    "patience",
+                    "purpose",
+                    "meaning",
+                    "combinations",
+                    "harmony",
+                    "alchemy"
+                ],
+                "reversed": [
+                    "imbalance",
+                    "excess",
+                    "self-healing",
+                    "re-alignment",
+                    "extremes",
+                    "disruption",
+                    "chaos"
+                ]
+            }
+        },
+        {
+            "name": "The Devil",
+            "rank": 15,
+            "suit": "major",
+            "planet": "saturn",
+            "element": "earth",
+            "sign": "capricorn",
+            "meanings": {
+                "upright": [
+                    "excess",
+                    "greed",
+                    "shadow self",
+                    "attachment",
+                    "addiction",
+                    "restriction",
+                    "sexuality",
+                    "fear",
+                    "materialism"
+                ],
+                "reversed": [
+                    "release",
+                    "enlightenment",
+                    "acceptance",
+                    "inspiration",
+                    "freedom",
+                    "divorce",
+                    "determination",
+                    "restoring control"
+                ]
+            }
+        },
+        {
+            "name": "The Tower",
+            "rank": 16,
+            "suit": "major",
+            "planet": "mars",
+            "element": "fire",
+            "sign": "",
+            "meanings": {
+                "upright": [
+                    "sudden change",
+                    "upheaval",
+                    "disaster",
+                    "overthrow of existing circumstances",
+                    "destruction",
+                    "ruin",
+                    "revelation"
+                ],
+                "reversed": [
+                    "avoidance of disaster",
+                    "fear of suffering",
+                    "manipulation",
+                    "trapped in suffering",
+                    "loss",
+                    "illness"
+                ]
+            }
+        },
+        {
+            "name": "The Star",
+            "rank": 17,
+            "suit": "major",
+            "planet": "uranus",
+            "element": "air",
+            "sign": "aquarius",
+            "meanings": {
+                "upright": [
+                    "hope",
+                    "faith",
+                    "rejuvenation",
+                    "serenity",
+                    "inspiration",
+                    "calm",
+                    "optimism",
+                    "rebirth"
+                ],
+                "reversed": [
+                    "faithlessness",
+                    "discouragement",
+                    "insecurity",
+                    "hopelessness",
+                    "disconnection",
+                    "unrealistic expectations"
+                ]
+            }
+        },
+        {
+            "name": "The Moon",
+            "rank": 18,
+            "suit": "major",
+            "planet": "neptune",
+            "element": "water",
+            "sign": "pisces",
+            "meanings": {
+                "upright": [
+                    "unconscious",
+                    "illusions",
+                    "intuition",
+                    "dreams",
+                    "fantasy",
+                    "fears",
+                    "mystery"
+                ],
+                "reversed": [
+                    "confusion",
+                    "fear",
+                    "misinterpretation",
+                    "deception",
+                    "anxiety",
+                    "unfounded fear",
+                    "enlightenment"
+                ]
+            }
+        },
+        {
+            "name": "The Sun",
+            "rank": 19,
+            "suit": "major",
+            "planet": "sun",
+            "element": "fire",
+            "sign": "",
+            "meanings": {
+                "upright": [
+                    "joy",
+                    "success",
+                    "celebration",
+                    "positivity",
+                    "vitality",
+                    "attainment",
+                    "material happiness",
+                    "achievement"
+                ],
+                "reversed": [
+                    "negativity",
+                    "depression",
+                    "sadness",
+                    "superficiality",
+                    "excess",
+                    "overindulgence"
+                ]
+            }
+        },
+        {
+            "name": "Judgment",
+            "rank": 20,
+            "suit": "major",
+            "planet": "pluto",
+            "element": "fire",
+            "sign": "",
+            "meanings": {
+                "upright": [
+                    "judgment",
+                    "rebirth",
+                    "inner calling",
+                    "absolution",
+                    "awakening",
+                    "renewal",
+                    "resurrection",
+                    "reevaluation"
+                ],
+                "reversed": [
+                    "lack of self awareness",
+                    "doubt",
+                    "self loathing",
+                    "refusal of self-examination",
+                    "stunted personal growth"
+                ]
+            }
+        },
+        {
+            "name": "The World",
+            "rank": 21,
+            "suit": "major",
+            "planet": "saturn",
+            "element": "earth",
+            "sign": "",
+            "meanings": {
+                "upright": [
+                    "completion",
+                    "integration",
+                    "accomplishment",
+                    "travel",
+                    "fulfillment",
+                    "wholeness",
+                    "harmony",
+                    "achievement"
+                ],
+                "reversed": [
+                    "incompletion",
+                    "no closure",
+                    "lack of harmony",
+                    "lack of closure",
+                    "lack of fulfillment",
+                    "delayed success",
+                    "failed plans",
+                    "stagnation",
+                    "emptiness"
+                ]
+            }
+        }
+    ]
+}
