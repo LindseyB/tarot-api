@@ -591,6 +591,389 @@
                     "emptiness"
                 ]
             }
+        },
+        {
+            "name": "Ace of Wands",
+            "rank": 1,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "creation",
+                    "willpower",
+                    "inspiration",
+                    "desire",
+                    "vision",
+                    "beginnings",
+                    "potential"
+                ],
+                "reversed": [
+                    "lack of energy",
+                    "lack of passion",
+                    "lack of direction",
+                    "decreased libido",
+                    "lack of creativity"
+                ]
+            }
+        },
+        {
+            "name": "Two of Wands",
+            "rank": 2,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "discovery",
+                    "future planning",
+                    "making decisions",
+                    "progress",
+                    "entrepreneurship",
+                    "having a long term vision",
+                    "opportunity"
+                ],
+                "reversed": [
+                    "personal goals",
+                    "fear of change",
+                    "playing safe",
+                    "bad planning",
+                    "lack of direction",
+                    "personal goals are unclear"
+                ]
+            }
+        },
+        {
+            "name": "Three of Wands",
+            "rank": 3,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "progress",
+                    "expansion",
+                    "preparation",
+                    "forethought",
+                    "enterprise",
+                    "trade",
+                    "negotiation",
+                    "good things to come",
+                    "rapid growth"
+                ],
+                "reversed": [
+                    "obstacles",
+                    "lack of progress",
+                    "delays",
+                    "frustration",
+                    "lack of growth",
+                    "lack of expansion",
+                    "bad things to come"
+                ]
+            }
+        },
+        {
+            "name": "Four of Wands",
+            "rank": 4,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "relaxation",
+                    "celebration",
+                    "harmony",
+                    "marriage",
+                    "home",
+                    "community",
+                    "peace",
+                    "tranquility"
+                ],
+                "reversed": [
+                    "lack of support",
+                    "transient home",
+                    "community conflict",
+                    "domestic disharmony",
+                    "inner harmony"
+                ]
+            }
+        },
+        {
+            "name": "Five of Wands",
+            "rank": 5,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "competition",
+                    "rivalry",
+                    "conflict",
+                    "strife",
+                    "tension",
+                    "disagreement",
+                    "arguments"
+                ],
+                "reversed": [
+                    "avoidance of conflict",
+                    "respecting differences",
+                    "conflict avoidance",
+                    "conflict resolution",
+                    "tension release"
+                ]
+            }
+        },
+        {
+            "name": "Six of Wands",
+            "rank": 6,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "victory",
+                    "success",
+                    "public reward",
+                    "progression",
+                    "triumph",
+                    "pride"
+                ],
+                "reversed": [
+                    "excess pride",
+                    "lack of recognition",
+                    "punishment",
+                    "lack of progress",
+                    "opposition",
+                    "fall from grace",
+                    "egotism"
+                ]
+            }
+        },
+        {
+            "name": "Seven of Wands",
+            "rank": 7,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "challenge",
+                    "protection",
+                    "perseverance",
+                    "defensiveness",
+                    "maintaining control",
+                    "standing your ground",
+                    "show of strength"
+                ],
+                "reversed": [
+                    "give up",
+                    "destruction",
+                    "fatigue",
+                    "overwhelmed",
+                    "exhaustion",
+                    "surrender",
+                    "lack of confidence"
+                ]
+            }
+        },
+        {
+            "name": "Eight of Wands",
+            "rank": 8,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "alignment",
+                    "air travel",
+                    "action",
+                    "movement",
+                    "quick decisions"
+                ],
+                "reversed": [
+                    "panic",
+                    "waiting",
+                    "slowdown",
+                    "frustration",
+                    "miscommunication",
+                    "resisting change"
+                ]
+            }
+        },
+        {
+            "name": "Nine of Wands",
+            "rank": 9,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "resilience",
+                    "courage",
+                    "test of faith",
+                    "persistence",
+                    "boundaries",
+                    "grit"
+                ],
+                "reversed": [
+                    "hesitation",
+                    "defensiveness",
+                    "timidness",
+                    "wounded",
+                    "weariness",
+                    "hesitation",
+                    "feeling battered",
+                    "paranoia"
+                ]
+            }
+        },
+        {
+            "name": "Ten of Wands",
+            "rank": 10,
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "accomplishment",
+                    "responsibility",
+                    "burden",
+                    "hard work",
+                    "stress",
+                    "completion"
+                ],
+                "reversed": [
+                    "inability to delegate",
+                    "overwork",
+                    "straining",
+                    "taking on too much",
+                    "avoiding responsibility",
+                    "burnt out",
+                    "overstressed",
+                    "release"
+                ]
+            }
+        },
+        {
+            "name": "Page of Wands",
+            "rank": "page",
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "inspiration",
+                    "ideas",
+                    "discovery",
+                    "free spirit",
+                    "freedom",
+                    "limitless potential",
+                    "exploration"
+                ],
+                "reversed": [
+                    "lack of direction",
+                    "discovery",
+                    "new approaches",
+                    "procrastination",
+                    "spiritual path"
+                ]
+            }
+        },
+        {
+            "name": "Knight of Wands",
+            "rank": "knight",
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "energy",
+                    "passion",
+                    "inspired action",
+                    "adventure",
+                    "restlessness",
+                    "lust",
+                    "travel",
+                    "impulsiveness",
+                    "action"
+                ],
+                "reversed": [
+                    "selfishness",
+                    "no direction",
+                    "panic",
+                    "anger",
+                    "lack of control",
+                    "impulsiveness",
+                    "haste",
+                    "recklessness",
+                    "delays"
+                ]
+            }
+        },
+        {
+            "name": "Queen of Wands",
+            "rank": "queen",
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "confidence",
+                    "courage",
+                    "determination",
+                    "joy",
+                    "energy",
+                    "confidence",
+                    "independence",
+                    "cheer"
+                ],
+                "reversed": [
+                    "frustration",
+                    "introversion",
+                    "insecurity",
+                    "repressed energy",
+                    "moodiness"
+                ]
+            }
+        },
+        {
+            "name": "King of Wands",
+            "rank": "king",
+            "suit": "wands",
+            "planet": null,
+            "element": "fire",
+            "sign": ["aries", "leo", "sagittarius"],
+            "meanings": {
+                "upright": [
+                    "natural-born leader",
+                    "visionary",
+                    "growth",
+                    "success",
+                    "entrepreneur",
+                    "spirituality",
+                    "motivation"
+                ],
+                "reversed": [
+                    "impulsiveness",
+                    "aggression",
+                    "stubbornness",
+                    "posessiveness",
+                    "controlling"
+                ]
+            }
         }
     ]
 }
