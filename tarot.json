@@ -7,7 +7,7 @@
             "suit": "major",
             "planet": "uranus",
             "element": "air",
-            "sign": "",
+            "sign": [],
             "meanings": {
                 "upright": [
                     "new beginnings",
@@ -32,7 +32,7 @@
             "suit": "major",
             "planet": "mercury",
             "element": "air",
-            "sign": "",
+            "sign": [],
             "meanings": {
                 "upright": [
                     "determined",
@@ -59,7 +59,7 @@
             "suit": "major",
             "planet": "moon",
             "element": "water",
-            "sign": "",
+            "sign": [],
             "meanings": {
                 "upright": [
                     "intuitive",
@@ -84,7 +84,7 @@
             "suit": "major",
             "planet": "venus",
             "element": "earth",
-            "sign": "",
+            "sign": [],
             "meanings": {
                 "upright": [
                     "motherly",
@@ -109,7 +109,7 @@
             "suit": "major",
             "planet": "mars",
             "element": "fire",
-            "sign": "aries",
+            "sign": ["aries"],
             "meanings": {
                 "upright": [
                     "leadership",
@@ -132,7 +132,7 @@
             "suit": "major",
             "planet": "venus",
             "element": "earth",
-            "sign": "taurus",
+            "sign": ["taurus"],
             "meanings": {
                 "upright": [
                     "tradition",
@@ -155,7 +155,7 @@
             "suit": "major",
             "planet": "mercury",
             "element": "air",
-            "sign": "gemini",
+            "sign": ["gemini"],
             "meanings": {
                 "upright": [
                     "partnerships",
@@ -181,7 +181,7 @@
             "suit": "major",
             "planet": "moon",
             "element": "water",
-            "sign": "cancer",
+            "sign": ["cancer"],
             "meanings": {
                 "upright": [
                     "control",
@@ -209,7 +209,7 @@
             "suit": "major",
             "planet": "sun",
             "element": "fire",
-            "sign": "leo",
+            "sign": ["leo"],
             "meanings": {
                 "upright": [
                     "courage",
@@ -233,7 +233,7 @@
             "suit": "major",
             "planet": "mercury",
             "element": "earth",
-            "sign": "virgo",
+            "sign": ["virgo"],
             "meanings": {
                 "upright": [
                     "contemplation",
@@ -258,7 +258,7 @@
             "suit": "major",
             "planet": "jupiter",
             "element": "fire",
-            "sign": "",
+            "sign": [],
             "meanings": {
                 "upright": [
                     "change",
@@ -285,7 +285,7 @@
             "suit": "major",
             "planet": "venus",
             "element": "earth",
-            "sign": "libra",
+            "sign": ["libra"],
             "meanings": {
                 "upright": [
                     "justice",
@@ -311,7 +311,7 @@
             "suit": "major",
             "planet": "neptune",
             "element": "water",
-            "sign": "pisces",
+            "sign": ["pisces"],
             "meanings": {
                 "upright": [
                     "sacrifice",
@@ -339,7 +339,7 @@
             "suit": "major",
             "planet": "pluto",
             "element": "water",
-            "sign": "scorpio",
+            "sign": ["scorpio"],
             "meanings": {
                 "upright": [
                     "rebirth",
@@ -369,7 +369,7 @@
             "suit": "major",
             "planet": "jupiter",
             "element": "fire",
-            "sign": "sagittarius",
+            "sign": ["sagittarius"],
             "meanings": {
                 "upright": [
                     "balance",
@@ -398,7 +398,7 @@
             "suit": "major",
             "planet": "saturn",
             "element": "earth",
-            "sign": "capricorn",
+            "sign": ["capricorn"],
             "meanings": {
                 "upright": [
                     "excess",
@@ -429,7 +429,7 @@
             "suit": "major",
             "planet": "mars",
             "element": "fire",
-            "sign": "",
+            "sign": [],
             "meanings": {
                 "upright": [
                     "sudden change",
@@ -456,7 +456,7 @@
             "suit": "major",
             "planet": "uranus",
             "element": "air",
-            "sign": "aquarius",
+            "sign": ["aquarius"],
             "meanings": {
                 "upright": [
                     "hope",
@@ -484,7 +484,7 @@
             "suit": "major",
             "planet": "neptune",
             "element": "water",
-            "sign": "pisces",
+            "sign": ["pisces"],
             "meanings": {
                 "upright": [
                     "unconscious",
@@ -512,7 +512,7 @@
             "suit": "major",
             "planet": "sun",
             "element": "fire",
-            "sign": "",
+            "sign": [],
             "meanings": {
                 "upright": [
                     "joy",
@@ -540,7 +540,7 @@
             "suit": "major",
             "planet": "pluto",
             "element": "fire",
-            "sign": "",
+            "sign": [],
             "meanings": {
                 "upright": [
                     "judgment",
@@ -567,7 +567,7 @@
             "suit": "major",
             "planet": "saturn",
             "element": "earth",
-            "sign": "",
+            "sign": [],
             "meanings": {
                 "upright": [
                     "completion",
