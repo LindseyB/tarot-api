@@ -1,8 +1,6 @@
 require "bundler"
 Bundler.require
 
-require_relative "cards"
-
 class Application < Sinatra::Base
   def initialize
     file = File.read('tarot.json')
