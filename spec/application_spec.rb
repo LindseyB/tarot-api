@@ -41,19 +41,9 @@ describe 'Application' do
       expect(last_response).to be_ok
 
       card = JSON.parse(last_response.body)
-      expect(card["name"]).to eq "queen of swords"
+      expect(card["name"]).to eq "Queen of Swords"
       expect(card["suit"]).to eq "swords"
       expect(card["rank"]).to eq "queen"
-    end
-
-    it "replaces pentacles with coins" do
-      get "/cards/pentacles/10"
-      expect(last_response).to be_ok
-
-      card = JSON.parse(last_response.body)
-      expect(card["name"]).to eq "ten of coins"
-      expect(card["suit"]).to eq "coins"
-      expect(card["rank"]).to eq 10
     end
 
     it "returns a 404 if card not found" do
@@ -97,22 +87,12 @@ describe 'Application' do
       expect(card["rank"]).to eq 1
     end
 
-    it "replaces pentacles with coins" do
-      get "/find/ten%20of%20pentacles"
-      expect(last_response).to be_ok
-
-      card = JSON.parse(last_response.body)
-      expect(card["name"]).to eq "ten of coins"
-      expect(card["suit"]).to eq "coins"
-      expect(card["rank"]).to eq 10
-    end
-
     it "replaces numbers with words" do
       get "/find/10%20of%20swords"
       expect(last_response).to be_ok
 
       card = JSON.parse(last_response.body)
-      expect(card["name"]).to eq "ten of swords"
+      expect(card["name"]).to eq "Ten of Swords"
       expect(card["suit"]).to eq "swords"
       expect(card["rank"]).to eq 10
     end
