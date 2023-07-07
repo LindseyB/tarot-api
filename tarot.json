@@ -974,6 +974,370 @@
                     "controlling"
                 ]
             }
+        },
+        {
+            "name": "Ace of Cups",
+            "rank": 1,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "proposal",
+                    "marriage",
+                    "intuition",
+                    "spirituality",
+                    "new feelings",
+                    "love"
+                ],
+                "reversed": [
+                    "self-love",
+                    "emotional loss",
+                    "codependency",
+                    "lack of trust",
+                    "emptiness"
+                ]
+            }
+        },
+        {
+            "name": "Two of Cups",
+            "rank": 2,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "partnership",
+                    "mutual attraction",
+                    "compatibility",
+                    "union",
+                    "marriage",
+                    "romantic love",
+                    "unity",
+                    "connection"
+                ],
+                "reversed": [
+                    "imbalance",
+                    "broken communication",
+                    "clashing values",
+                    "disconnection",
+                    "tension"
+                ]
+            }
+        },
+        {
+            "name": "Three of Cups",
+            "rank": 3,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "friendship",
+                    "community",
+                    "happiness",
+                    "forgiveness",
+                    "reunion",
+                    "celebration",
+                    "joy",
+                    "support"
+                ],
+                "reversed": [
+                    "overindulgence",
+                    "gossip",
+                    "isolation",
+                    "loneliness",
+                    "party-crashing",
+                    "disruption",
+                    "conflict in community",
+                    "an affair"
+                ]
+            }
+        },
+        {
+            "name": "Four of Cups",
+            "rank": 4,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "disillusioned",
+                    "missed opportunities",
+                    "regret",
+                    "remorse",
+                    "apathy",
+                    "discontent",
+                    "boredom",
+                    "disconnectedness"
+                ],
+                "reversed": [
+                    "sudden awareness",
+                    "choosing happiness",
+                    "acceptance",
+                    "moving on"
+                ]
+            }
+        },
+        {
+            "name": "Five of Cups",
+            "rank": 5,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "loss",
+                    "grief",
+                    "self-pity",
+                    "disappointment",
+                    "regret",
+                    "sadness",
+                    "remorse",
+                    "trauma",
+                    "heartbreak"
+                ],
+                "reversed": [
+                    "acceptance",
+                    "moving on",
+                    "finding peace",
+                    "forgiveness",
+                    "healing"
+                ]
+            }
+        },
+        {
+            "name": "Six of Cups",
+            "rank": 6,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "nostalgia",
+                    "innocence",
+                    "family",
+                    "kindness",
+                    "creativity",
+                    "protection"
+                ],
+                "reversed": [
+                    "boredom",
+                    "stuck in the past",
+                    "stagnation",
+                    "leaving home"
+                ]
+            }
+        },
+        {
+            "name": "Seven of Cups",
+            "rank": 7,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "opportunities",
+                    "new possibilities",
+                    "fantasy",
+                    "illusions",
+                    "meditation",
+                    "decisions"
+                ],
+                "reversed": [
+                    "lack of purpose",
+                    "diversion",
+                    "confusion",
+                    "lack of fulfillment",
+                    "temptation",
+                    "overwhelmed by choice"
+                ]
+            }
+        },
+        {
+            "name": "Eight of Cups",
+            "rank": 8,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "disappointment",
+                    "abandonment",
+                    "withdrawal",
+                    "escapism",
+                    "disillusionment"
+                ],
+                "reversed": [
+                    "hopelessness",
+                    "unfinished business",
+                    "avoidance",
+                    "fear of change",
+                    "aimless drifting",
+                    "stagnation"
+                ]
+            }
+        },
+        {
+            "name": "Nine of Cups",
+            "rank": 9,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "satisfaction",
+                    "emotional stability",
+                    "luxury",
+                    "self-sufficiency",
+                    "wish fulfillment",
+                    "happiness",
+                    "success",
+                    "gratitude"
+                ],
+                "reversed": [
+                    "lack of inner joy",
+                    "smugness",
+                    "self-satisfaction",
+                    "indulgence",
+                    "gloating",
+                    "dissatisfaction",
+                    "materialism"
+                ]
+            }
+        },
+        {
+            "name": "Ten of Cups",
+            "rank": 10,
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "blessings",
+                    "divine love",
+                    "family",
+                    "harmony",
+                    "alignment",
+                    "joy",
+                    "bliss"
+                ],
+                "reversed": [
+                    "domestic strife",
+                    "broken home",
+                    "shattered dreams",
+                    "misalignment of values"
+                ]
+            }
+        },
+        {
+            "name": "Page of Cups",
+            "rank": "page",
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "happy surprise",
+                    "dreams",
+                    "sensitivity",
+                    "intuitive messages",
+                    "creativity"
+                ],
+                "reversed": [
+                    "emotional immaturity",
+                    "insecurity",
+                    "disappointment",
+                    "creative block"
+                ]
+            }
+        },
+        {
+            "name": "Knight of Cups",
+            "rank": "knight",
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "idealist",
+                    "romantic",
+                    "emotional",
+                    "imaginative",
+                    "sensitive"
+                ],
+                "reversed": [
+                    "moodiness",
+                    "disappointment",
+                    "heartbreak",
+                    "sadness"
+                ]
+            }
+        },
+        {
+            "name": "Queen of Cups",
+            "rank": "queen",
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "loving",
+                    "empathic",
+                    "intuitive",
+                    "psychic",
+                    "calm",
+                    "spiritual",
+                    "compassionate",
+                    "tenderhearted"
+                ],
+                "reversed": [
+                    "self-care",
+                    "martyrdom",
+                    "emotional manipulation",
+                    "insecurity",
+                    "dependency"
+                ]
+            }
+        },
+        {
+            "name": "King of Cups",
+            "rank": "king",
+            "suit": "cups",
+            "planet": null,
+            "element": "water",
+            "sign": ["cancer", "scorpio", "pisces"],
+            "meanings": {
+                "upright": [
+                    "wisdom",
+                    "understanding",
+                    "focus",
+                    "balance",
+                    "peacefulness",
+                    "diplomacy"
+                ],
+                "reversed": [
+                    "coldness",
+                    "moodiness",
+                    "volatile",
+                    "immature",
+                    "overreaction",
+                    "manipulative"
+                ]
+            }
         }
     ]
 }
