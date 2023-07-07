@@ -1675,6 +1675,337 @@
                     "abuse of power"
                 ]
             }
+        },
+        {
+            "name": "Ace of Pentacles",
+            "rank": 1,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "opportunity",
+                    "prosperity",
+                    "manifestation",
+                    "wealth",
+                    "abundance",
+                    "new venture"
+                ],
+                "reversed": [
+                    "lost opportunity",
+                    "missed chance",
+                    "bad investment",
+                    "lack of foresight"
+                ]
+            }
+        },
+        {
+            "name": "Two of Pentacles",
+            "rank": 2,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "balance",
+                    "adaptability",
+                    "time management",
+                    "priorities"
+                ],
+                "reversed": [
+                    "loss of balance",
+                    "disorganized",
+                    "overwhelmed",
+                    "disarray",
+                    "over-committed"
+                ]
+            }
+        },
+        {
+            "name": "Three of Pentacles",
+            "rank": 3,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "teamwork",
+                    "collaboration",
+                    "learning",
+                    "implementation"
+                ],
+                "reversed": [
+                    "disharmony",
+                    "disorganization",
+                    "group conflict",
+                    "working alone"
+                ]
+            }
+        },
+        {
+            "name": "Four of Pentacles",
+            "rank": 4,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "conservativism",
+                    "frugality",
+                    "security",
+                    "scarcity",
+                    "control",
+                    "restraint"
+                ],
+                "reversed": [
+                    "over-spending",
+                    "greed",
+                    "materialism",
+                    "selfishness",
+                    "poverty",
+                    "unstable"
+                ]
+            }
+        },
+        {
+            "name": "Five of Pentacles",
+            "rank": 5,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "isolation",
+                    "insecurity",
+                    "worry",
+                    "financial loss",
+                    "poverty"
+                ],
+                "reversed": [
+                    "recovery",
+                    "charity",
+                    "improving health",
+                    "spiritual poverty"
+                ]
+            }
+        },
+        {
+            "name": "Six of Pentacles",
+            "rank": 6,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "charity",
+                    "sharing",
+                    "giving",
+                    "sharing wealth",
+                    "generosity",
+                    "receiving"
+                ],
+                "reversed": [
+                    "power and domination",
+                    "strings attached",
+                    "stinginess",
+                    "self-care"
+                ]
+            }
+        },
+        {
+            "name": "Seven of Pentacles",
+            "rank": 7,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "long-term view",
+                    "sustainable results",
+                    "perseverance",
+                    "investment",
+                    "diligence",
+                    "hard work"
+                ],
+                "reversed": [
+                    "lack of rewards",
+                    "distractions",
+                    "disruption",
+                    "questioned investments"
+                ]
+            }
+        },
+        {
+            "name": "Eight of Pentacles",
+            "rank": 8,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "mastery",
+                    "skill development",
+                    "diligence",
+                    "passion",
+                    "standards"
+                ],
+                "reversed": [
+                    "lack of passion",
+                    "uninspired",
+                    "lack of ambition",
+                    "no motivation"
+                ]
+            }
+        },
+        {
+            "name": "Nine of Pentacles",
+            "rank": 9,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "fruits of labor",
+                    "rewards",
+                    "luxury",
+                    "self-sufficiency",
+                    "financial independence"
+                ],
+                "reversed": [
+                    "reckless spending",
+                    "living beyond means",
+                    "false success",
+                    "living off others",
+                    "termination"
+                ]
+            }
+        },
+        {
+            "name": "Ten of Pentacles",
+            "rank": 10,
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "wealth",
+                    "financial security",
+                    "family",
+                    "long-term success",
+                    "legacy"
+                ],
+                "reversed": [
+                    "fleeting success",
+                    "financial failure",
+                    "lack of stability",
+                    "lack of resources"
+                ]
+            }
+        },
+        {
+            "name": "Page of Pentacles",
+            "rank": "page",
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "manifestation",
+                    "ambition",
+                    "desire",
+                    "financial opprotunity"
+                ],
+                "reversed": [
+                    "procrastination",
+                    "lack of progress",
+                    "greediness",
+                    "laziness"
+                ]
+            }
+        },
+        {
+            "name": "Knight of Pentacles",
+            "rank": "knight",
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "efficiency",
+                    "hard work",
+                    "responsibility",
+                    "focus",
+                    "determination",
+                    "productivity",
+                    "routine"
+                ],
+                "reversed": [
+                    "boredom",
+                    "laziness",
+                    "obsession with work",
+                    "work without reward",
+                    "feeling overwhelmed"
+                ]
+            }
+        },
+        {
+            "name": "Queen of Pentacles",
+            "rank": "queen",
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "practicality",
+                    "creature comforts",
+                    "financial security",
+                    "generosity",
+                    "matriarchal"
+                ],
+                "reversed": [
+                    "jealousy",
+                    "smothering",
+                    "self care",
+                    "financially dependent"
+                ]
+            }
+        },
+        {
+            "name": "King of Pentacles",
+            "rank": "king",
+            "suit": "pentacles",
+            "planet": null,
+            "element": "earth",
+            "sign": ["taurus", "virgo", "capricorn"],
+            "meanings": {
+                "upright": [
+                    "abundance",
+                    "prosperity",
+                    "security",
+                    "wealth",
+                    "leadership"
+                ],
+                "reversed": [
+                    "financially inept",
+                    "greed",
+                    "spending problems",
+                    "stubborn",
+                    "indulgence"
+                ]
+            }
         }
     ]
 }
