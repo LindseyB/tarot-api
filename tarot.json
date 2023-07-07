@@ -1338,6 +1338,343 @@
                     "manipulative"
                 ]
             }
+        },
+        {
+            "name": "Ace of Swords",
+            "rank": 1,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "breakthroughs",
+                    "new ideas",
+                    "clarity",
+                    "success",
+                    "sharp mind",
+                    "cutting through confusion"
+                ],
+                "reversed": [
+                    "confusion",
+                    "brutality",
+                    "chaos",
+                    "clouded judgement"
+                ]
+            }
+        },
+        {
+            "name": "Two of Swords",
+            "rank": 2,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "indecision",
+                    "stalemate",
+                    "impasse",
+                    "avoidance",
+                    "weighing options"
+                ],
+                "reversed": [
+                    "confusion",
+                    "lesser of two evils",
+                    "information overload",
+                    "tension"
+                ]
+            }
+        },
+        {
+            "name": "Three of Swords",
+            "rank": 3,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "grief",
+                    "suffering",
+                    "heartbreak",
+                    "sorrow",
+                    "emotional pain"
+                ],
+                "reversed": [
+                    "recovery",
+                    "forgiveness",
+                    "moving on",
+                    "releasing baggage",
+                    "optimism",
+                    "legging go of pain"
+                ]
+            }
+        },
+        {
+            "name": "Four of Swords",
+            "rank": 4,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "rest",
+                    "relaxation",
+                    "restoration",
+                    "contemplation",
+                    "recuperation",
+                    "meditation",
+                    "recovery"
+                ],
+                "reversed": [
+                    "restlessness",
+                    "burnout",
+                    "stress",
+                    "exhaustion",
+                    "repeating mistakes"
+                ]
+            }
+        },
+        {
+            "name": "Five of Swords",
+            "rank": 5,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "sneakiness",
+                    "conflict",
+                    "defeat",
+                    "competition",
+                    "ego",
+                    "win at all costs"
+                ],
+                "reversed": [
+                    "lingering resentment",
+                    "desire to reconcile",
+                    "forgiveness",
+                    "moving on",
+                    "releasing baggage"
+                ]
+            }
+        },
+        {
+            "name": "Six of Swords",
+            "rank": 6,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "transition",
+                    "change",
+                    "rite of passage",
+                    "gradual movement",
+                    "release"
+                ],
+                "reversed": [
+                    "emotional baggage",
+                    "unresolved issues",
+                    "resistance to change",
+                    "difficulty moving on"
+                ]
+            }
+        },
+        {
+            "name": "Seven of Swords",
+            "rank": 7,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "betrayal",
+                    "deception",
+                    "getting away with something",
+                    "acting strategically",
+                    "self-interest",
+                    "sneaking around"
+                ],
+                "reversed": [
+                    "imposter syndrome",
+                    "deceit",
+                    "coming clean",
+                    "releasing guilt and shame",
+                    "getting away with nothing",
+                    "confrontation"
+                ]
+            }
+        },
+        {
+            "name": "Eight of Swords",
+            "rank": 8,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "imprisonment",
+                    "entrapment",
+                    "victim",
+                    "negative thoughts"
+                ],
+                "reversed": [
+                    "self-limiting beliefs",
+                    "inner critic",
+                    "open to new perspectives",
+                    "freedom"
+                ]
+            }
+        },
+        {
+            "name": "Nine of Swords",
+            "rank": 9,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "hopelessness",
+                    "anxiety",
+                    "trauma",
+                    "depression",
+                    "worry",
+                    "fear",
+                    "nightmares"
+                ],
+                "reversed": [
+                    "secrets",
+                    "release of fear",
+                    "deep-seated concern",
+                    "inner turmoil"
+                ]
+            }
+        },
+        {
+            "name": "Ten of Swords",
+            "rank": 10,
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "failure",
+                    "defeat",
+                    "deep wounds",
+                    "loss",
+                    "crisis",
+                    "betrayal"
+                ],
+                "reversed": [
+                    "recovery",
+                    "rebirth",
+                    "moving on",
+                    "restoration"
+                ]
+            }
+        },
+        {
+            "name": "Page of Swords",
+            "rank": "page",
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "curiosity",
+                    "mental energy",
+                    "innovation",
+                    "thirst for knowledge"
+                ],
+                "reversed": [
+                    "manipulation",
+                    "deception",
+                    "haste",
+                    "haphazard action"
+                ]
+            }
+        },
+        {
+            "name": "Knight of Swords",
+            "rank": "knight",
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "action",
+                    "impulse",
+                    "defense of beliefs",
+                    "ambitious"
+                ],
+                "reversed": [
+                    "lack of direction",
+                    "restless",
+                    "unpredictability",
+                    "impulsive"
+                ]
+            }
+        },
+        {
+            "name": "Queen of Swords",
+            "rank": "queen",
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "complexity",
+                    "perceptive",
+                    "clear minded",
+                    "impartial",
+                    "independent"
+                ],
+                "reversed": [
+                    "cold hearted",
+                    "cruel",
+                    "bitter",
+                    "unforgiving",
+                    "resentful",
+                    "isolation"
+                ]
+            }
+        },
+        {
+            "name": "King of Swords",
+            "rank": "king",
+            "suit": "swords",
+            "planet": null,
+            "element": "air",
+            "sign": ["gemini", "libra", "aquarius"],
+            "meanings": {
+                "upright": [
+                    "head over heart",
+                    "disciplined",
+                    "truthful",
+                    "just",
+                    "mental clarity",
+                    "authority",
+                    "intellect"
+                ],
+                "reversed": [
+                    "manipulative",
+                    "cruel",
+                    "weakness of character",
+                    "abuse of power"
+                ]
+            }
         }
     ]
 }
