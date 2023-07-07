@@ -4,6 +4,13 @@ Bundler.require
 require_relative "cards"
 
 class Application < Sinatra::Base
+  def initialize
+    file = File.read('tarot.json')
+    json = JSON.parse(file, symbolize_names: true)
+    @cards = json[:cards]
+    super
+  end
+
   configure do
     disable :protection
   end
@@ -20,20 +27,20 @@ class Application < Sinatra::Base
 
   # return all cards
   get '/' do
-    CARDS.to_json
+    @cards.to_json
   end
 
   # return all cards
   get '/cards' do
-    CARDS.to_json
+    @cards.to_json
   end
 
   # return card by suit and rank
   get '/cards/:suit/:rank' do
-    suit = params[:suit].downcase.gsub("pentacles", "coins")
     rank = params[:rank].downcase # ranks can be strings or ints
+    suit = params[:suit].downcase
 
-    card = CARDS.detect { |card| card[:rank].to_s == rank && card[:suit] == suit }
+    card = @cards.detect { |card| card[:rank].to_s == rank && card[:suit] == suit }
     return halt_with_404_not_found unless card
     card.to_json
   end
@@ -43,7 +50,7 @@ class Application < Sinatra::Base
     n = params[:n].to_i
 
     halt 403, { message: "must be 0 or greater" }.to_json if n < 0
-    CARDS.sample(n).to_json
+    @cards.sample(n).to_json
   end
 
   # find by name
@@ -61,11 +68,9 @@ class Application < Sinatra::Base
       "1" => "ace"
     }
 
-    # uses coins not pentacles
-    name = params[:name].downcase.gsub("pentacles", "coins")
-    name = name.gsub(/\d+/, replacements)
+    name = params[:name].gsub(/\d+/, replacements)
 
-    card = CARDS.detect { |card| card[:name].downcase == name }
+    card = @cards.detect { |card| card[:name].downcase == name.downcase }
     return halt_with_404_not_found unless card
     card.to_json
   end
