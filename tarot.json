@@ -2007,5 +2007,43 @@
                 ]
             }
         }
+    ],
+    "suits": [
+        {
+            "name": "wands",
+            "element": "fire",
+            "direction": "south",
+            "season": "summer",
+            "time": "noon",
+            "signs": ["aries", "leo", "sagittarius"],
+            "keywords": ["creativity", "action", "passion", "inspiration"]
+        },
+        {
+            "name": "swords",
+            "element": "air",
+            "direction": "east",
+            "season": "spring",
+            "time": "dawn",
+            "signs": ["gemini", "libra", "aquarius"],
+            "keywords": ["logic", "ideas", "intellect", "communication"]
+        },
+        {
+            "name": "cups",
+            "element": "water",
+            "direction": "west",
+            "season": "autumn",
+            "time": "dusk",
+            "signs": ["cancer", "scorpio", "pisces"],
+            "keywords": ["emotions", "feelings", "intuition", "relationships"]
+        },
+        {
+            "name": "pentacles",
+            "element": "earth",
+            "direction": "north",
+            "season": "winter",
+            "time": "midnight",
+            "signs": ["taurus", "virgo", "capricorn"],
+            "keywords": ["wealth", "health", "practicality", "the body"]
+        }
     ]
 }

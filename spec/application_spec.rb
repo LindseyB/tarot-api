@@ -102,4 +102,68 @@ describe 'Application' do
       expect(last_response).to be_not_found
     end
   end
+
+  describe "/suits" do
+    it "returns all suits" do
+      get "/suits"
+      expect(last_response).to be_ok
+
+      expect(JSON.parse(last_response.body).length).to eq 4
+    end
+  end
+
+  describe "/suits/:suit/cards" do
+    it "returns all cards for a valid suit" do
+      get "/suits/cups/cards"
+      expect(last_response).to be_ok
+
+      expect(JSON.parse(last_response.body).length).to eq 14
+    end
+
+    it "works for major arcana" do
+      get "/suits/major/cards"
+      expect(last_response).to be_ok
+
+      expect(JSON.parse(last_response.body).length).to eq 22
+    end
+
+    it "is case insensitive" do
+      get "/suits/SwOrDs/cards"
+      expect(last_response).to be_ok
+
+      expect(JSON.parse(last_response.body).length).to eq 14
+    end
+
+    it "returns 404 if suit not found" do
+      get "/suits/dash/cards"
+
+      expect(last_response).to be_not_found
+    end
+  end
+
+  describe "/suits/:suit" do
+    it "returns the specified suit" do
+      get "/suits/cups"
+      expect(last_response).to be_ok
+
+      suit = JSON.parse(last_response.body)
+      expect(suit["name"]).to eq "cups"
+      expect(suit["element"]).to eq "water"
+    end
+
+    it "is case insensitive" do
+      get "/suits/SwOrDs"
+      expect(last_response).to be_ok
+
+      suit = JSON.parse(last_response.body)
+      expect(suit["name"]).to eq "swords"
+      expect(suit["element"]).to eq "air"
+    end
+
+    it "returns 404 if suit not found" do
+      get "/suits/dash"
+
+      expect(last_response).to be_not_found
+    end
+  end
 end
