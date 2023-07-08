@@ -81,13 +81,45 @@ Returns n randomly selected cards
 |----------|--------------|----------|
 | n        | positive int | yes      |
 
-`GET /find/:name` [[run]](https://tarot-api.com/find/The%20Magician)
+`GET /find/[name]` [[run]](https://tarot-api.com/find/The%20Magician)
 
 Returns the card by the specified name. Note that the numbers will be spelled out
 
 | argument | values                                     | required |
 |----------|--------------------------------------------|----------|
 | name     | string name of the card (eg: The Magician) | yes      |
+
+
+`GET /suits` [[run]](https://tarot-api.com/suits)
+
+Returns an array of all the suits of the tarot with key information
+
+`GET /suits/[suit]/cards` [[run]](https://tarot-api.com/suits/cups/cards)
+
+Returns an array of all the cards in a given suit
+
+| argument | values                                     | required |
+|----------|--------------------------------------------|----------|
+| suit     | string name of the suit (eg: cups )        | yes      |
+
+
+`GET /suits/[suit]` [[run]](https://tarot-api.com/suits/cups)
+
+| argument | values                                     | required |
+|----------|--------------------------------------------|----------|
+| suit     | string name of the suit (eg: cups )        | yes      |
+
+Returns a single suit in the form of
+
+| field                | type             | description                                                                                 |
+|----------------------|------------------|---------------------------------------------------------------------------------------------|
+| name                 | string           | the name of the tarot suit                                                                  |
+| element              | string           | the element associated with this tarot suit                                                 |
+| direction            | string           | the cardinal direction associated with this tarot suit                                      |
+| season               | string           | the season associated with this tarot suit                                                  |
+| time                 | string           | the time of day associated with this tarot suit                                             |
+| signs                | array of strings | astrological signs associated with this suit                                                |
+| keywords             | array of strings | words associated with this suit                                                             |
 
 
 ## Testing

@@ -6,6 +6,7 @@ class Application < Sinatra::Base
     file = File.read('tarot.json')
     json = JSON.parse(file, symbolize_names: true)
     @cards = json[:cards]
+    @suits = json[:suits]
     super
   end
 
@@ -41,6 +42,30 @@ class Application < Sinatra::Base
     card = @cards.detect { |card| card[:rank].to_s == rank && card[:suit] == suit }
     return halt_with_404_not_found unless card
     card.to_json
+  end
+
+  # return all suits
+  get '/suits' do
+    @suits.to_json
+  end
+
+  # return the details of a given suit
+  get '/suits/:suit' do
+    suit = params[:suit].downcase
+
+    suit = @suits.detect { |s| s[:name].downcase == suit }
+
+    return halt_with_404_not_found unless suit
+    suit.to_json
+  end
+
+  # return all cards of a suit
+  get '/suits/:suit/cards' do
+    suit = params[:suit].downcase
+
+    cards = @cards.select { |card| card[:suit] == suit }
+    return halt_with_404_not_found unless cards.any?
+    cards.to_json
   end
 
   # returns n cards
