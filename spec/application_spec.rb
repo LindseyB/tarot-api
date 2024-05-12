@@ -34,6 +34,18 @@ describe 'Application' do
       expect(card["name"]).to eq "The Magician"
       expect(card["suit"]).to eq "major"
       expect(card["rank"]).to eq 1
+      expect(card["image_path"]).to eq "/cards/TheMagician.png"
+    end
+
+    it "returns the correct image path for a card that needs to be 0 padded" do
+      get "/cards/swords/9"
+      expect(last_response).to be_ok
+
+      card = JSON.parse(last_response.body)
+      expect(card["name"]).to eq "Nine of Swords"
+      expect(card["suit"]).to eq "swords"
+      expect(card["rank"]).to eq 9
+      expect(card["image_path"]).to eq "/cards/Swords09.png"
     end
 
     it "is case insensitive" do
@@ -44,6 +56,7 @@ describe 'Application' do
       expect(card["name"]).to eq "Queen of Swords"
       expect(card["suit"]).to eq "swords"
       expect(card["rank"]).to eq "queen"
+      expect(card["image_path"]).to eq "/cards/Swords13.png"
     end
 
     it "returns a 404 if card not found" do
@@ -75,6 +88,7 @@ describe 'Application' do
       expect(card["name"]).to eq "The Magician"
       expect(card["suit"]).to eq "major"
       expect(card["rank"]).to eq 1
+      expect(card["image_path"]).to eq "/cards/TheMagician.png"
     end
 
     it "is case insensitive" do
@@ -85,6 +99,7 @@ describe 'Application' do
       expect(card["name"]).to eq "The Magician"
       expect(card["suit"]).to eq "major"
       expect(card["rank"]).to eq 1
+      expect(card["image_path"]).to eq "/cards/TheMagician.png"
     end
 
     it "replaces numbers with words" do
@@ -95,6 +110,7 @@ describe 'Application' do
       expect(card["name"]).to eq "Ten of Swords"
       expect(card["suit"]).to eq "swords"
       expect(card["rank"]).to eq 10
+      expect(card["image_path"]).to eq "/cards/Swords10.png"
     end
 
     it "returns 404 if card not found" do

@@ -6,6 +6,10 @@ class Application < Sinatra::Base
     file = File.read('tarot.json')
     json = JSON.parse(file, symbolize_names: true)
     @cards = json[:cards]
+    # populate the images
+    @cards.each do |card|
+      card[:image_path] = card_image_path(card)
+    end
     @suits = json[:suits]
     super
   end
@@ -17,6 +21,29 @@ class Application < Sinatra::Base
   helpers do
     def halt_with_404_not_found
       halt 404, { message: "Not found" }.to_json
+    end
+
+
+    def card_image_path(card)
+      if card[:suit] == "major"
+        # eg "/cards/TheFool.png"
+        "/cards/#{card[:name].gsub(" ", "")}.png"
+      else
+        # eg "/cards/Swords09.png"
+        "/cards/#{card[:suit].capitalize}#{card_rank_to_int(card[:rank]).to_s.rjust(2, "0")}.png"
+      end
+    end
+
+    def card_rank_to_int(rank)
+      rank_map = {
+        "page" => 11,
+        "knight" => 12,
+        "queen" => 13,
+        "king" => 14
+      }
+      return rank if rank.is_a? Integer # already an int
+      return rank_map[rank] if rank_map[rank] # map to int
+      return 0 # default case, should never hit
     end
   end
 
