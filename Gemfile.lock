@@ -6,10 +6,13 @@ GEM
     method_source (1.0.0)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
+    nio4r (2.7.3)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rack (2.2.8.1)
+    puma (6.4.2)
+      nio4r (~> 2.0)
+    rack (2.2.7)
     rack-protection (2.2.3)
       rack
     rack-test (1.1.0)
@@ -37,18 +40,20 @@ GEM
     tilt (2.0.11)
 
 PLATFORMS
+  ruby
   x64-mingw32
   x86_64-linux
 
 DEPENDENCIES
   pry
+  puma
   rack-test
   rake
   rspec
   sinatra
 
 RUBY VERSION
-   ruby 2.7.3p183
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.1.4

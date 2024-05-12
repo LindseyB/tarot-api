@@ -15,7 +15,7 @@ jobs:
     - name: setup ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.7.3'
+        ruby-version: '3.2.2'
     - name: install deps
       run: |
         gem install bundler
