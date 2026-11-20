@@ -62,7 +62,7 @@ DEPENDENCIES
   sinatra
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.4.13
 
 BUNDLED WITH
    2.1.4
